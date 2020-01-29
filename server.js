@@ -79,7 +79,7 @@ app.post('/api/form', (req, res) => {
       console.log(`Error: ${err}`);
     }
     else {
-      console.log(`Response: ${JSON.stringify(info)}`);
+      console.log(`Response: ${info}`);
     }
   });
   
